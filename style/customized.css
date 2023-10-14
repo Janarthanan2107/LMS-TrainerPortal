@@ -143,8 +143,9 @@ button:hover {
 }
 
 .menu-items:hover {
-    color: var(--clr-blue-ncs);
-    background-color: var(--clr-midnight-green);
+    color: white;
+    font-weight: 500;
+    background-color: hsla(195, 83%, 16%, 1);
 }
 
 /* =========profile========= */
@@ -375,7 +376,7 @@ button:hover {
 /* ======Schedule====== */
 .schedule-container {
     display: flex;
-    gap:20px
+    gap: 20px
 }
 
 .schedule-container .card {
@@ -414,6 +415,62 @@ button:hover {
 .footer {
     margin-top: 80px;
     background-color: var(--clr-midnight-green);
-    height: 50vh;
+    /* height: 50vh; */
     padding: 3rem;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-left-container {
+    padding: 10px;
+    width: 20%;
+}
+
+footer .footer-info {
+    margin-top: 30px;
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+}
+
+footer ul.footer-menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+
+footer ul.footer-menu li {
+    cursor: pointer;
+    color: white;
+}
+
+footer ul.footer-menu li:hover {
+    color: var(--clr-blue-ncs);
+}
+
+.footer-left-container .social-links ul {
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.footer-left-container .social-links ul li i:hover {
+    color: var(--clr-blue-ncs);
+    box-shadow: 0 2px 3px 0 var(--clr-blue-ncs);
+}
+
+.footer-right-container {
+    color: white;
+    padding: 20px;
+}
+
+.copyrights {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
 }
