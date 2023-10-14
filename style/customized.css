@@ -440,12 +440,17 @@ footer ul.footer-menu {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    gap: 50%;
+    gap: 50px;
+}
+
+footer ul.footer-menu {
+    width: 500px;
 }
 
 footer ul.footer-menu li {
     cursor: pointer;
     color: white;
+    width: 800px;
 }
 
 footer ul.footer-menu li:hover {
@@ -467,10 +472,11 @@ footer ul.footer-menu li:hover {
 .footer-right-container {
     color: white;
     padding: 20px;
+    padding-left: 200px;
 }
 
 .copyrights {
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
     color: white;
 }
