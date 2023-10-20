@@ -477,8 +477,8 @@ button:hover {
 
 /* reviews */
 .review-container {
-    height: 50vh;
-    width: 87vw;
+/*     height: 50vh; */
+/*     width: 87vw; */
     display: flex;
     justify-content: center;
 }
